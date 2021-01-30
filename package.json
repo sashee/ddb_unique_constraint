@@ -1,0 +1,16 @@
+{
+  "name": "ddb_unique_constraint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "TERRAFORM_OUTPUT=\"$(terraform output --json)\" node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.833.0",
+    "nanoid": "^3.1.20"
+  }
+}
