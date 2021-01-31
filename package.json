@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.833.0",
-    "nanoid": "^3.1.20"
+    "chalk": "^4.1.0",
+    "cli-table3": "^0.6.0",
+    "lodash": "^4.17.20"
   }
 }
